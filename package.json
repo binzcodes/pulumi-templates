@@ -1,0 +1,13 @@
+{
+  "name": "${PROJECT}",
+  "description": "${DESCRIPTION}",
+  "devDependencies": {
+    "@types/node": "^14"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^5.6.0",
+    "@pulumi/awsx": "^0.40.0",
+    "@pulumi/pulumi": "^3.0.0",
+    "aws-sdk": "^2.1148.0"
+  }
+}
