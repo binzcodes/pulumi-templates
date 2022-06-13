@@ -1,13 +1,30 @@
-# Pulumi Template - Minimnal serverless api DynamoDB
+# Pulumi Template - Minimal AWS Serverless API
 
-A minimal serverless API templaye using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/binzcodes/pulumi-minimal-dynamodb-api)
+
+This repo contains a template for pulumi new, which makes it easy to quickly get started building new Pulumi projects.
+
+```
+pulumi new https://github.com/binzcodes/pulumi-template-aws
+```
+
+Start a minimal serverless API template using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
+
+## tools
 
 - Pulumi
 - AWS Lambda
 - AWS API Gateway
 - AWS DynamoDB
+- Gitpod
 
-## run
+
+# run
+
+To use this template install [Pulumi cli](https://www.pulumi.com/docs/get-started/install/) and run:
+```
+pulumi new https://github.com/binzcodes/pulumi-template-aws
+```
 
 Deploy resources:
 
@@ -28,10 +45,14 @@ pulumi destroy
 pulumi stack rm
 ```
 
-## todo
+# Contributing
+Contrbutions welcome
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/binzcodes/pulumi-minimal-dynamodb-api)
+
+# Todo
 - Linting with Prettier
 - Testing with jest
-- Gitpod support
+- CI/CD with Github Actions
 
-Based on: [awsworkshop.com](https://pulumi.awsworkshop.io/additional-content/120_serverless_application_patterns/1_new_project.html)
+Based on [pulumi.awsworkshop.com](https://pulumi.awsworkshop.io/additional-content/120_serverless_application_patterns/1_new_project.html)
