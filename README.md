@@ -52,7 +52,6 @@ Contrbutions welcome
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/binzcodes/pulumi-minimal-dynamodb-api)
 
 # Todo
-- Testing with jest
-- CI/CD with Github Actions
+- Husky & Commitizen
 
 Based on [pulumi.awsworkshop.com](https://pulumi.awsworkshop.io/additional-content/120_serverless_application_patterns/1_new_project.html)
