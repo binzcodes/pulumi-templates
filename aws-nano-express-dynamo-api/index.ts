@@ -25,7 +25,7 @@ const update = async () => {
   return result.Attributes!.Hits;
 };
 
-const app = new cloud.HttpServer('myserver', () => {
+const expressApp = new cloud.HttpServer('expressApp', () => {
   const app = express();
 
   app.get(
@@ -43,4 +43,4 @@ const app = new cloud.HttpServer('myserver', () => {
   return app;
 });
 
-export const url = app.url;
+export const { url } = expressApp;

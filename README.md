@@ -34,7 +34,7 @@ See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for more.
 
 ---
 
-A minimal serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
+A bare-bones serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
 
 ```bash
 pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-express-dynamo-api
@@ -50,4 +50,6 @@ Contrbutions welcome
 
 # Todo
 
-- Husky & Commitizen in minimal
+- GraphQL
+- Husky & Commitizen
+- GH Action - linting
