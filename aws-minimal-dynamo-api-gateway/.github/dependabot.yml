@@ -3,12 +3,4 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
-  - package-ecosystem: 'npm'
-    directory: '/aws-nano-dynamo-api-gateway'
-    schedule:
-      interval: 'weekly'
-  - package-ecosystem: 'npm'
-    directory: '/aws-minimal-dynamo-api-gateway'
-    schedule:
-      interval: 'weekly'
+      interval: 'daily'
