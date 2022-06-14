@@ -15,15 +15,18 @@ Start a minimal serverless API template using AWS API Gateway and Lambda functio
 See [`README.md`](aws-nano-dynamo-api-gateway/README.md) for documentation.
 
 ### Tooling
+
 - Typescript
 
 ### Infrastructure
+
 - Pulumi
 - AWS Lambda
 - AWS API Gateway
 - AWS DynamoDB
 
 ## AWS Minimal Serverless API
+
 Builds a serverless API template extending `Nano AWS Serverless API` with linting, testing and CI/CD.
 
 Uses AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
@@ -32,21 +35,23 @@ Uses AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit c
 pulumi new https://github.com/binzcodes/pulumi-templates/aws-minimal-dynamo-api-gateway
 ```
 
-
 See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for documentation.
 
 ### Tooling
+
 - Typescript
 - Jest
 - eslint
 - Prettier
 
 ### CI/CD
+
 - Pulumi
 - Github Actions
 - Gitpod
 
 ### Infrastructure
+
 - Pulumi
 - AWS Lambda
 - AWS API Gateway
