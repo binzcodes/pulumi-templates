@@ -5,6 +5,7 @@ Start a minimal serverless API template using AWS API Gateway and Lambda functio
 # run
 
 To use this template install [Pulumi cli](https://www.pulumi.com/docs/get-started/install/) and run:
+
 ```bash
 pulumi new https://github.com/binzcodes/pulumi-template-aws
 ```
