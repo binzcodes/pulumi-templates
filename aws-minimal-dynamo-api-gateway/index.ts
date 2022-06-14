@@ -39,4 +39,5 @@ const site = new awsx.apigateway.API('site', {
   ],
 });
 
+// eslint-disable-next-line import/prefer-default-export
 export const url = site.url;
