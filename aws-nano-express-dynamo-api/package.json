@@ -3,7 +3,7 @@
   "description": "${DESCRIPTION}",
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "@types/node": "^14"
+    "@types/node": "^17"
   },
   "dependencies": {
     "@pulumi/aws": "^5.6.0",
