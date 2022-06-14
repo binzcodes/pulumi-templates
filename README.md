@@ -4,7 +4,7 @@
 
 This repo contains templates for pulumi new, which makes it easy to quickly get started building new Pulumi projects.
 
-# AWS Nano Serverless API
+## AWS Nano Serverless API
 
 ```bash
 pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-dynamo-api-gateway
@@ -14,16 +14,16 @@ Start a minimal serverless API template using AWS API Gateway and Lambda functio
 
 See [`README.md`](aws-nano-dynamo-api-gateway/README.md) for documentation.
 
-## Tooling
+### Tooling
 - Typescript
 
-## Infrastructure
+### Infrastructure
 - Pulumi
 - AWS Lambda
 - AWS API Gateway
 - AWS DynamoDB
 
-# AWS Minimal Serverless API
+## AWS Minimal Serverless API
 Builds a serverless API template extending `Nano AWS Serverless API` with linting, testing and CI/CD.
 
 Uses AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
@@ -41,7 +41,7 @@ See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for documentation.
 - eslint
 - Prettier
 
-# CI/CD
+### CI/CD
 - Pulumi
 - Github Actions
 - Gitpod
