@@ -1,4 +1,4 @@
-# Nano serverless - Express DynamoDB API
+# Nano AWS serverless Express DynamoDB API
 
 A bare-bones serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
 

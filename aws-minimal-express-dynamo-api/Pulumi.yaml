@@ -1,0 +1,6 @@
+name: ${PROJECT}
+runtime: nodejs
+description: ${DESCRIPTION}
+template:
+  description: A minimal serverless API with Pulumi DynamoDB
+  important: true
