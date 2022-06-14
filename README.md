@@ -4,30 +4,23 @@
 
 This repo contains templates for pulumi new, which makes it easy to quickly get started building new Pulumi projects.
 
-## AWS Nano Serverless API
+## AWS Nano Serverless - API Gateway DynamoDB
+
+---
+
+A bare-bones serverless API template using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
 
 ```bash
 pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-dynamo-api-gateway
 ```
 
-Start a minimal serverless API template using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
+See [`README.md`](aws-nano-dynamo-api-gateway/README.md) for more.
 
-See [`README.md`](aws-nano-dynamo-api-gateway/README.md) for documentation.
+## AWS Minimal Serverless - API Gateway DynamoDB
 
-### Tooling
+---
 
-- Typescript
-
-### Infrastructure
-
-- Pulumi
-- AWS Lambda
-- AWS API Gateway
-- AWS DynamoDB
-
-## AWS Minimal Serverless API
-
-Builds a serverless API template extending `Nano AWS Serverless API` with linting, testing and CI/CD.
+Builds a serverless API template extending `AWS Nano Serverless API` with linting, testing and CI/CD.
 
 Uses AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
 
@@ -35,27 +28,19 @@ Uses AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit c
 pulumi new https://github.com/binzcodes/pulumi-templates/aws-minimal-dynamo-api-gateway
 ```
 
-See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for documentation.
+See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for more.
 
-### Tooling
+## AWS Nano serverless - Express DynamoDB API
 
-- Typescript
-- Jest
-- eslint
-- Prettier
+---
 
-### CI/CD
+A minimal serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
 
-- Pulumi
-- Github Actions
-- Gitpod
+```bash
+pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-express-dynamo-api
+```
 
-### Infrastructure
-
-- Pulumi
-- AWS Lambda
-- AWS API Gateway
-- AWS DynamoDB
+See [`README.md`](aws-nano-express-dynamo-api/README.md) for more.
 
 # Contributing
 
@@ -65,4 +50,4 @@ Contrbutions welcome
 
 # Todo
 
-- Husky & Commitizen
+- Husky & Commitizen in minimal

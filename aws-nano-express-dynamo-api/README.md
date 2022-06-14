@@ -1,8 +1,9 @@
-# Nano Serverless - API Gateway DynamoDB
+# Nano serverless - Express DynamoDB API
 
-A minimal serverless API template using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
+A minimal serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
 
-- Pulumi
+- [Express](https://expressjs.com/)
+- Pulumi cloud.HttpServer
 - AWS Lambda
 - AWS API Gateway
 - AWS DynamoDB
@@ -25,5 +26,3 @@ for i in {1..5}; do curl $(pulumi stack output url); done
 pulumi destroy
 pulumi stack rm
 ```
-
-Based on: [awsworkshop.com](https://pulumi.awsworkshop.io/additional-content/120_serverless_application_patterns/1_new_project.html)
