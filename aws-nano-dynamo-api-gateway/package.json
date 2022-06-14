@@ -2,7 +2,7 @@
   "name": "${PROJECT}",
   "description": "${DESCRIPTION}",
   "devDependencies": {
-    "@types/node": "^14"
+    "@types/node": "^17"
   },
   "dependencies": {
     "@pulumi/aws": "^5.6.0",
