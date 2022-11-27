@@ -4,23 +4,29 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+    open-pull-requests-limit: 3
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
+    open-pull-requests-limit: 3
   - package-ecosystem: 'npm'
     directory: '/aws-nano-dynamo-api-gateway'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
+    open-pull-requests-limit: 3
   - package-ecosystem: 'npm'
     directory: '/aws-minimal-dynamo-api-gateway'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
+    open-pull-requests-limit: 3
   - package-ecosystem: 'npm'
     directory: '/aws-nano-express-dynamo-api'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
+    open-pull-requests-limit: 3
   - package-ecosystem: 'npm'
     directory: '/aws-minimal-express-dynamo-api'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
+    open-pull-requests-limit: 3
