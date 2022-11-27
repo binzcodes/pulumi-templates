@@ -4,7 +4,6 @@
 
 This repo contains templates for pulumi new, which makes it easy to quickly get started building new Pulumi projects.
 
----
 
 ## AWS Nano Serverless - API Gateway DynamoDB
 
@@ -15,6 +14,7 @@ pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-dynamo-api-gat
 ```
 
 See [`README.md`](aws-nano-dynamo-api-gateway/README.md) for more.
+
 
 ## AWS Minimal Serverless - API Gateway DynamoDB
 
@@ -28,6 +28,7 @@ pulumi new https://github.com/binzcodes/pulumi-templates/aws-minimal-dynamo-api-
 
 See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for more.
 
+
 ## AWS Nano serverless - Express DynamoDB API
 
 A bare-bones serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
@@ -37,6 +38,7 @@ pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-express-dynamo
 ```
 
 See [`README.md`](aws-nano-express-dynamo-api/README.md) for more.
+
 
 ## AWS Minimal Serverless - API Gateway DynamoDB
 
@@ -50,7 +52,7 @@ pulumi new https://github.com/binzcodes/pulumi-templates/aws-minimal-express-dyn
 
 See [`README.md`](aws-minimal-express-dynamo-api/README.md) for more.
 
----
+
 
 # Contributing
 
@@ -61,5 +63,3 @@ Contrbutions welcome, see [`CONTRIBUTING.md`](CONTRIBUTING.md)
 # Todo
 
 - GraphQL
-- Husky & Commitizen
-- GH Action - linting
