@@ -22,7 +22,7 @@
     "ts-jest": "^28.0.5"
   },
   "dependencies": {
-    "@pulumi/aws": "^5.8.0",
+    "@pulumi/aws": "^6.33.1",
     "@pulumi/awsx": "^1.0.1",
     "@pulumi/cloud-aws": "^0.30.1",
     "@pulumi/pulumi": "^3.34.0",
