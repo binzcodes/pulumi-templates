@@ -2,7 +2,7 @@
   "name": "${PROJECT}",
   "description": "${DESCRIPTION}",
   "devDependencies": {
-    "@types/express": "^4.17.13",
+    "@types/express": "^5.0.0",
     "@types/node": "^22"
   },
   "dependencies": {
