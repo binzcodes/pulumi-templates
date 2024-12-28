@@ -4,17 +4,15 @@
 
 This repo contains templates for pulumi new, which makes it easy to quickly get started building new Pulumi projects.
 
-
 ## AWS Nano Serverless - API Gateway DynamoDB
 
 A bare-bones serverless API template using AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
 
 ```bash
-pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-dynamo-api-gateway
+pulumi new https://github.com/binzcodes/pulumi-templates/templates/aws-nano-dynamo-api-gateway
 ```
 
-See [`README.md`](aws-nano-dynamo-api-gateway/README.md) for more.
-
+See [`README.md`](templates/aws-nano-dynamo-api-gateway/README.md) for more.
 
 ## AWS Minimal Serverless - API Gateway DynamoDB
 
@@ -23,22 +21,20 @@ Builds a serverless API template extending `AWS Nano Serverless - API Gateway Dy
 Uses AWS API Gateway and Lambda functions serving a dynamic DynamoDB-based hit counter.
 
 ```bash
-pulumi new https://github.com/binzcodes/pulumi-templates/aws-minimal-dynamo-api-gateway
+pulumi new https://github.com/binzcodes/pulumi-templates/templates/aws-minimal-dynamo-api-gateway
 ```
 
-See [`README.md`](aws-minimal-dynamo-api-gateway/README.md) for more.
-
+See [`README.md`](templates/aws-minimal-dynamo-api-gateway/README.md) for more.
 
 ## AWS Nano serverless - Express DynamoDB API
 
 A bare-bones serverless [Express](https://expressjs.com/) API template using Pulumi's cloud.HttpServer built on AWS API Gateway and Lambda functions, serving a dynamic DynamoDB-based hit counter.
 
 ```bash
-pulumi new https://github.com/binzcodes/pulumi-templates/aws-nano-express-dynamo-api
+pulumi new https://github.com/binzcodes/pulumi-templates/templates/aws-nano-express-dynamo-api
 ```
 
-See [`README.md`](aws-nano-express-dynamo-api/README.md) for more.
-
+See [`README.md`](templates/aws-nano-express-dynamo-api/README.md) for more.
 
 ## AWS Minimal Serverless - API Gateway DynamoDB
 
@@ -47,12 +43,10 @@ Builds a serverless [Express](https://expressjs.com/) API template extending `AW
 Uses Pulumi's cloud.HttpServer to deploy an Express app on an AWS serverless stack, serving a dynamic DynamoDB-based hit counter.
 
 ```bash
-pulumi new https://github.com/binzcodes/pulumi-templates/aws-minimal-express-dynamo-api
+pulumi new https://github.com/binzcodes/pulumi-templates/templates/aws-minimal-express-dynamo-api
 ```
 
-See [`README.md`](aws-minimal-express-dynamo-api/README.md) for more.
-
-
+See [`README.md`](templates/aws-minimal-express-dynamo-api/README.md) for more.
 
 # Contributing
 
