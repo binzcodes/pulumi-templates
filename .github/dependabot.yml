@@ -1,32 +1,17 @@
 version: 2
 updates:
+  # Maintain dependencies for GitHub Actions
   - package-ecosystem: github-actions
     directory: '/'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 3
-  - package-ecosystem: 'npm'
+    open-pull-requests-limit: 20
+
+  # Maintain dependencies for npm
+  - package-ecosystem: npm
     directory: '/'
     schedule:
       interval: 'daily'
-    open-pull-requests-limit: 3
-  - package-ecosystem: 'npm'
-    directory: '/aws-nano-dynamo-api-gateway'
-    schedule:
-      interval: 'daily'
-    open-pull-requests-limit: 3
-  - package-ecosystem: 'npm'
-    directory: '/aws-minimal-dynamo-api-gateway'
-    schedule:
-      interval: 'daily'
-    open-pull-requests-limit: 3
-  - package-ecosystem: 'npm'
-    directory: '/aws-nano-express-dynamo-api'
-    schedule:
-      interval: 'daily'
-    open-pull-requests-limit: 3
-  - package-ecosystem: 'npm'
-    directory: '/aws-minimal-express-dynamo-api'
-    schedule:
-      interval: 'daily'
-    open-pull-requests-limit: 3
+    versioning-strategy: increase
+    open-pull-requests-limit: 20
+
